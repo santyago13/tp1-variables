@@ -3,7 +3,7 @@
 
 let numero = parseInt(prompt("Introduce un número:")); 
 if (isNaN(numero)) {
-    console.log("Por favor, introduce un número válido.");
+    alert("Por favor, introduce un número válido.");
 } else {
     if (numero % 2 === 0) {
         document.writeln("El número " + numero + " es divisible por 2.");
